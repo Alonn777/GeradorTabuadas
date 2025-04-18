@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #050612;
+    background: linear-gradient(90deg, rgba(5, 6, 18, 1) 0%, rgba(0, 0, 191, 1) 35%, rgba(111, 15, 255, 1) 97%);
+    color: #fff;
+    text-align: center;
+    padding-top: 35px;
+    height: 100vh;
+}
+#form-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f5f5f5;
+    max-width: 300px;
+    padding: 1rem;
+    margin: 1rem auto;
+    color: #000;
+    border-radius: 1rem;
+    
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+    width: 100px;
+
+}
+.form-control label{
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin: 0 1rem;
+}
+.form-control input{
+    width: 50px;
+    color: #000;
+    border: 2px solid #000;
+    padding: 0.6rem 0.4rem;
+    border-radius: 5px;
+    margin: 0 1rem;
+}
+#form-table input[type="submit"]{
+    padding: 6px 12px;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 7px;
+    background-color: #111111;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+/*Estilo da tabuada  */
+
+#multiplicate-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+    
+    
+}
+#multiplicate-operations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    width: 300px;
+    padding: 1.5rem 1.5rem;
+    margin-top: 1rem;
+    
+}
+#title{
+    margin-top: 1rem;
+}
+.subtitle{
+    color: #333;
+}
+
+#multiplicate-operations .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    width: 150px;
+    padding: 0.6rem;
+
+}
+.row .operation{
+    font-size: 16px;
+}
+.row .result{
+    margin-left: 0.3rem;
+    font-weight: 600;
+}
